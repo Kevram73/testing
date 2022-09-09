@@ -25,6 +25,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp://ftp.easycarrental.tg
-        username: Kevram73@bourse.easycarrental.tg
+        server: deploy.easycarrental.tg
+        username: kevram73@deploy.easycarrental.tg
         password: Alkashi13!!!%
