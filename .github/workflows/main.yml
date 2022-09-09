@@ -21,6 +21,14 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
+      
+    - name: Create a routing file
+      run: touch index.js
+      
+    - name: Node
+      run: |
+        npm init -y
+        npm install
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
