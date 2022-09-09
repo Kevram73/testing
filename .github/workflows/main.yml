@@ -28,7 +28,7 @@ jobs:
     - name: Node
       run: |
         npm init -y
-        npm install
+        npm install nodemon
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
